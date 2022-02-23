@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=IM+Fell+Great+Primer:ital@1&family=Lato:wght@300&family=Nunito+Sans:wght@300&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(1, 1, 14, 0.9);
+}
+
+.logo {
+    font-family: 'IM Fell Great Primer', serif;
+    margin: 30px 70px 60px 70px;
+    color: white;
+    
+}
+
+.welcome-text {
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 70px;
+
+}
+
+.letter_f {
+    color: rgb(134, 134, 194);
+}
+
+
+#container {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 100vh;
+    margin: 30px 70px;
+    padding: 20px 60px;
+
+}
+/* 
+font-family: 'Comfortaa', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */

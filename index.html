@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Koolf. Nig</title>
+    <link rel="stylesheet" href="stylesheet/main.css"/>
+  </head>
+  <body>
+    <div class="nav_like">
+      <a class="home__nav" href="#"><h1 class="logo">Kool-<span class="letter_f">F</span></h1></a>
+      <h2 class="welcome-text">Welcome, Dear User</h2>
+    </div>
+    <div id="container">
+      <div class="searchEntity">
+        <p class="events_header">Search Entity</p>
+        <div class="search">
+          <form id="form"> 
+            <input type="search" id="query" name="q" placeholder="Search...">
+            <button type="button" class="searchBtn">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <hr>
+      <div class="filter">
+        <div class="filter_subgroup">
+          <p class="filter__group-text">Client</p>
+          <select name="client" id="database_entities">
+            <optgroup label="Attributes">
+              <option value="Date-Created">Date Created</option>
+              <option value="Date-Joined">Date Joined</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="filter_subgroup">
+          <p class="filter__group-text">Invoice</p>
+          <select name="client_invoice" id="filter_invoice">
+            <optgroup label="Status">
+              <option value="Completed">Completed</option>
+              <option value="Not-Completed">Not Completed</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <button type="button" class="filterBtn">Filter</button>
+      </div>
+      <hr>
+      <div class="result">
+        <p class="search__result-header">Search results</p>
+        <div class="sort">
+          <p>Order by:</p>
+          <div class="sort_by_date">
+            <select name="date" id="date" class="sort_by_date--dropdown">
+              <optgroup label="Client">
+                <option value="Date-Joined">Date joined</option>
+              </optgroup>
+              <optgroup label="Invoice">
+                <option value="Date-Created">Date created</option>
+              </optgroup>
+            </select>
+          </div>
+          <button class="sorting__categories">Discount</button>
+        </div>
+      </div>
+      <div class="results_card">
+        <div class="results__card-componet">
+          <div class="result__component-section">
+            <p class="search-header">Famas Signature - <span class="discount">(30%)</span></p>
+            <div class="result__component-section-b">
+              <p class="date-joined">Fri 27th October, 2016 <span class="joined">joined</span></p>
+              <p class="date-created">Sun 3rd January, 2017 <span class="created">created</span></p>
+            </div>
+            <p class="status">Status: Not completed</p>
+      
+          </div>
+         <a href="info/invoice.html"><button class="view">View</button></a>
+        </div>
+        
+        <div class="results__card-componet">
+          <div class="result__component-section">
+            <p class="search-header">Victoria Secrets - <span class="discount">(20%)</span></p>
+            <div class="result__component-section-b">
+              <p class="date-joined">Fri 27th October, 2016 <span class="joined">joined</span></p>
+              <p class="date-created">Sun 3rd January, 2017 <span class="created">created</span></p>
+            
+            </div>
+            <p class="status">Status: Not completed</p>
+          </div>
+          <a href="info/invoice.html"><button class="view">View</button></a>
+        </div>
+
+        <div class="results__card-componet">
+          <div class="result__component-section">
+            <p class="search-header">Calvin Klein - <span class="discount">(20%)</span></p>
+            <div class="result__component-section-b">
+              <p class="date-joined">Fri 27th October, 2016 <span class="joined">joined</span></p>
+              <p class="date-created">Sun 3rd January, 2017 <span class="created">created</span></p>
+            </div>
+            <p class="status">Status: Completed</p>
+          </div>
+          <a href="info/invoice.html"><button class="view">View</button></a>
+        </div>
+
+        <div class="results__card-componet">
+          <div class="result__component-section">
+            <p class="search-header">Spunkfest NFT - <span class="discount">(45%)</span></p>
+            <div class="result__component-section-b">
+              <p class="date-joined">Fri 27th October, 2016 <span class="joined">joined</span></p>
+              <p class="date-created">Sun 3rd January, 2017 <span class="created">created</span></p>
+            </div>
+            <p class="status">Status: Not completed</p>
+          </div>
+          <a href="info/invoice.html"><button class="view">View</button></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

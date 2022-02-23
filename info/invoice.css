@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=IM+Fell+Great+Primer:ital@1&family=Lato:wght@300&family=Nunito+Sans:wght@300&family=Poppins&display=swap');
+
+
+.home_nav {
+    text-decoration: none;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: normal;
+    font-size: 3em;
+
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 20px 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.for_business, .for_client {
+    line-height: 2em;
+
+}
+
+.discount_figure {
+    color: green;
+
+}
+
+.invoice_param {
+    margin: 30px 0 20px 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.status {
+    color: green;
+
+}
+
+.deliverables {
+    margin: 20px 0 20px 0;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: normal;
+
+}
+
+.deliverables_list {
+    margin-top: 20px;
+
+}
+
+table {
+    max-width: 100%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    
+}
+
+th {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 75px;
+    background-color: rgb(77, 77, 160); 
+
+}
+
+td {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 10px;
+
+}
+
+.pay_stat {
+    text-align: right;
+    margin: 10px 30px 100px 0;
+}
+
+
+
+.total {
+    background-color: #d6eeee;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+font-family: 'Comfortaa', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;  
+
+*/
